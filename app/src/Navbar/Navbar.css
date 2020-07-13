@@ -1,0 +1,120 @@
+html {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+    height: 100%;
+}
+
+.topbar {
+    background-color: rgb(255, 148, 77);
+    height: 20%;
+    border-style: none none solid none; 
+    border-color: rgb(70, 70, 70);
+    border-width: 5px;
+}
+
+.hc {
+    height: 100%;
+}
+
+.name1 {
+    position: relative;
+    top: 14px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    text-transform: 10px;
+    color: rgb(88, 88, 88);
+    font-size: 150%;
+}
+
+.name2 {
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.lisvg {
+    position: absolute;
+    transform: translate(110px, -35px);
+}
+
+.glisvg {
+    transform: scale(1);
+}
+
+.text1 {
+    position: relative;
+    top: 18px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(88, 88, 88);
+    font-size: 120%
+}
+
+.glipng1 {
+    position: absolute;
+    transform: translate(90px, -46px);
+    width: 70px;
+    height: auto;
+
+}
+
+.glipng2 {
+    position: absolute;
+    transform: translate(80px, -42px);
+    width: 60px;
+    height: auto;
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    .name1 {
+        font-size: 130%;
+        position: relative;
+        top: 5px;
+    }
+
+    .lisvg {
+        position: absolute;
+        transform: translate(0px, 10px);
+    }
+
+    .glisvg {
+        transform: scale(1);
+    }
+
+    .text1 {
+        position: relative;
+        top: 18px;
+        font-family: 'Orbitron', sans-serif;
+        color: rgb(88, 88, 88);
+        font-size: 120%;
+        display: none;
+    }
+
+    .glipng1 {
+        position: absolute;
+        transform: translate(-15px, 0px);
+        width: 70px;
+        height: auto;
+    
+    }
+
+    .glipng2 {
+        position: absolute;
+        transform: translate(-11px, 4px);
+        width: 60px;
+        height: auto;
+    
+    }
+
+
+}
+
+.border {
+    border-style: solid solid solid solid;
+    border-width: 1px;
+}
+
